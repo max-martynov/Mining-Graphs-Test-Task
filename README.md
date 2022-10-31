@@ -1,7 +1,7 @@
 # PHP parsing
 In this repository you can find my implementation of the test task for the JetBrains Research Project **Mining Grahps from Source Code**.
 
-# How to run
+## How to run
 Remember to clone including submodules:
 ```
 git clone --recurse-submodules https://github.com/max-martynov/Mining-Graphs-Test-Task
@@ -19,5 +19,5 @@ $ python3 main.py
 ```
 and see statistics in the `output.txt` file.
 
-# My results
+## My results
 Can be found in `output.txt` file.
