@@ -8,7 +8,7 @@ pip3 install -r requirements.txt
 ```
 To run on the whole set of repositories simply run
 ```
-$ pyhton3 main.py 
+$ python3 main.py 
 ```
 from the root directory.
 However, it will take some time since we have to process more than 100 Mb of data. To speed up the process change `repos_root` variable to relative path to some of the repositories in folder `repos/`.
