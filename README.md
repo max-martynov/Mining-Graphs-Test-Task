@@ -1,1 +1,16 @@
-I'm really sorry for the delay but the implementation will be uploaded by Monday 31.10 23:59 GMT+1. I had a bunch of work to do so decidaded to take my time and focus more on quality and correctness rather than speed. 
+# PHP parsing
+In this repository you can find my implementation of the test task for the JetBrains Research Project **Mining Grahps from Source Code**.
+
+# How to run
+Make sure to have latest Python version and install all requirements:
+```
+pip3 install -r requirements.txt
+```
+To run on the whole set of repositories simply run
+```
+$ pyhton3 main.py 
+```
+from the root directory.
+However, it will take some time since we have to process more than 100 Mb of data. To speed up the process change `repos_root` variable to relative path to some of the repositories in folder `repos/`.
+
+Details of the implementation and used technologies will be posted soon.
