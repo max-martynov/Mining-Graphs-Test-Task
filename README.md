@@ -21,3 +21,8 @@ and see statistics in the `output.txt` file.
 
 ## My results
 Can be found in `output.txt` file.
+
+## Used tools
+
+For cloning multiple github repositories I used a tool called [github-clone-all](https://github.com/rhysd/github-clone-all). 
+As a main parser of php files I decided to take a use of [this small library](https://github.com/JameelNabbo/PHP-Parsers). It's really awkward and slow but I managed to take maximal profit out of it.
